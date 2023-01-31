@@ -1,0 +1,19 @@
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+.color-secondary {
+    color: #64646A;
+}
+
+.standart-btn {
+    color: white;
+    background-color: #000;
+    border-radius: 126px;
+    text-transform: uppercase;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 18px 0;
+    margin-bottom: 20px;
+}
