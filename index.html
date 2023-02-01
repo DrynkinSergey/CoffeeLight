@@ -8,6 +8,9 @@
     <title>Coffee</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src='js/main.js' defer></script>
 
     <link rel="stylesheet" href="style.css">
@@ -88,7 +91,7 @@
                     delicious coffee’s.</h2>
 
                 <div id='cards' class='grid gap-10 grid-cols-3 py-6 mx-[50px]'>
-                    <div id='card-explore' class='rounded-xl shadow-xl py-10 px-10'>
+                    <div id='card-explore' class='rounded-xl shadow-2xl py-10 px-10'>
                         <h1 class='font-bold  text-3xl mb-4 mt-4'>Our Catering</h1>
                         <h2 class='color-secondary text-2xl  mb-16'>Alowishus Catering, delicious drop off Catering
                         </h2>
@@ -111,6 +114,270 @@
                 </div>
             </div>
         </section>
+
+        <section id='order-coffee' class='container mx-auto grid grid-cols-2  py-[150px]'>
+            <img src="/img/3th-screen/cups.png" alt="">
+            <div id='order-coffee-content' class='px-6'>
+                <h1 class='text-[#1B1B1D] font-bold text-7xl  mb-8'>Order Your Favourite Coffee</h1>
+                <h2 class='text-[#64646A] text-2xl w-2/3  mb-10'>Amet minim mollit non deserunt
+                    ullamco
+                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam
+                    consequat sunt nostrud amet.</h2>
+                <button class='standart-btn w-1/4 block m-0'>Order Now</button>
+            </div>
+        </section>
+        <section id='best-selling' class='relative  my-[150px]'>
+            <img class='absolute right-0 top-[-15%]' src="/img/4nd-screen/smooth.png" alt="smooth">
+            <div class='container mx-auto'>
+                <h1 class='text-[#1B1B1D] font-bold text-7xl text-center  mb-8'>Best Selling Coffee</h1>
+                <h2 class='text-[#64646A] text-2xl  text-center  mb-[150px]'>A drink from the ‘My Alowishus’ bottled
+                    brews
+                    range OR grab one of our delicious coffee’s.</h2>
+
+                <div id='cards-best-selling' class='grid gap-10 grid-cols-3 py-10 mx-[50px]'>
+                    <div id='card-explore' class=' relative rounded-xl shadow-xl py-10 px-10'>
+                        <img class='absolute left-0 top-[-20%]' src="/img/4nd-screen/1.png" alt="">
+                        <div class='ml-[50%] mb-16'> <span>#1 Selling</span>
+                            <h1 class='font-bold w-1/2  text-4xl mb-4 mt-4'>Double Espresso</h1>
+                        </div>
+
+                        <h2 class='color-secondary text-xl  mb-16'>Amet minim mollit non deserunt dolor ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat duis.
+                        </h2>
+
+                        <div class='flex justify-between items-center '><span
+                                class='block font-bold text-3xl'>$14.99</span>
+                            <button class='standart-btn w-1/2 my-auto'>Order now</button>
+                        </div>
+                    </div>
+                    <div id='card-explore' class=' relative rounded-xl shadow-xl py-10 px-10'>
+                        <img class='absolute left-0 top-[-20%]' src="/img/4nd-screen/2.png" alt="">
+                        <div class='ml-[50%] mb-16'> <span>#2 Selling</span>
+                            <h1 class='font-bold w-1/2  text-4xl mb-4 mt-4'>Caramel
+                                Frappe</h1>
+                        </div>
+
+                        <h2 class='color-secondary text-xl  mb-16'>Amet minim mollit non deserunt dolor ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat duis.
+                        </h2>
+
+                        <div class='flex justify-between items-center '><span
+                                class='block font-bold text-3xl'>$19.99</span>
+                            <button class='standart-btn w-1/2 my-auto'>Order now</button>
+                        </div>
+                    </div>
+                    <div id='card-explore' class=' relative rounded-xl shadow-xl py-10 px-10'>
+                        <img class='absolute left-0 top-[-20%]' src="/img/4nd-screen/3.png" alt="">
+                        <div class='ml-[50%] mb-16'> <span>#3 Selling</span>
+                            <h1 class='font-bold w-1/2  text-4xl mb-4 mt-4'>Iced
+                                Coffee</h1>
+                        </div>
+
+                        <h2 class='color-secondary text-xl  mb-16'>Amet minim mollit non deserunt dolor ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat duis.
+                        </h2>
+
+                        <div class='flex justify-between items-center '><span
+                                class='block font-bold text-3xl'>$9.99</span>
+                            <button class='standart-btn w-1/2 my-auto'>Order now</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id='mobile-app' class=' relative mt-[350px]  py-[150px]'>
+            <img class='absolute left-0 top-[-25%]' src="/img/5th-screen/cup.png" alt="cup">
+            <div class='container mx-auto grid grid-cols-2'>
+                <div id='order-coffee-content' class='px-6'>
+                    <h1 class='text-[#1B1B1D] font-bold text-7xl  mb-8'>Instant Coffee At Your Home</h1>
+                    <h2 class='text-[#64646A] text-2xl w-2/3  mb-10'>Amet minim mollit non deserunt ullamco est sit
+                        aliqua
+                        dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                        consequat
+                        sunt nostrud amet. .</h2>
+                    <button class='standart-btn w-1/3 block m-0'>Download our app</button>
+                </div>
+                <div class='relative'>
+                    <img class='absolute top-[-45%] left-[20%] rotate-[-20deg]' src="/img/5th-screen/app.png"
+                        alt="appScreen">
+                    <img class='absolute top-[-45%] left-[30%] ' src="/img/5th-screen/app.png" alt="appScreen">
+                </div>
+            </div>
+
+        </section>
+        <section id='testimonials' class=' relative py-[250px] my-[200px]'>
+            <img class='absolute right-0 bottom-[-50%]' src="/img/6th-screen/cup.png" alt="cup">
+            <div class="swiper w-[600px] absolute left-0">
+                <div class="swiper-wrapper bg-[transparent] flex gap-4 py-2">
+                    <div class="swiper-slide shadow-md rounded-lg py-4 bg-[#fff]">
+                        <img class='h-[300px] w-[400px]' src="/img/6th-screen/firstGirl.png" alt="">
+                        <div class='flex gap-2 mb-4 mt-8'>
+                            <span class='font-bold text-lg mr-4 px-4'>Brooklyn Black</span>
+
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                        </div>
+                        <p class='text-[#1B1B1D] px-4'>
+                            “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide shadow-md rounded-xl py-4 bg-[#fff]">
+                        <img class='h-[300px] w-full' src="/img/6th-screen/secondGirl.webp" alt="">
+                        <div class='flex gap-2 mb-4 mt-8'>
+                            <span class='font-bold text-lg mr-4 px-4'>Imam White</span>
+
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                        </div>
+                        <p class='text-[#1B1B1D] px-4'>
+                            “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide shadow-md rounded-xl py-4 bg-[#fff]">
+                        <img class='h-[300px] w-full' src="/img/6th-screen/firstGirl.png" alt="">
+                        <div class='flex gap-2 mb-4 mt-8'>
+                            <span class='font-bold text-lg mr-4 px-4'>Imam White</span>
+
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                        </div>
+                        <p class='text-[#1B1B1D] px-4'>
+                            “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                        </p>
+                    </div>
+                    <div class="swiper-slide shadow-md rounded-xl py-4 bg-[#fff]">
+                        <img class='h-[300px] w-full' src="/img/6th-screen/secondGirl.webp" alt="">
+                        <div class='flex gap-2 mb-4 mt-8'>
+                            <span class='font-bold text-lg mr-4 px-4'>Brooklyn Simmons</span>
+
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img src="/img/6th-screen/goldStar.svg" alt="rate">
+                        </div>
+                        <p class='text-[#1B1B1D] px-4'>
+                            “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class='container mx-auto w-full flex justify-end'>
+                <div id='order-coffee-content' class='px-6 relative  w-[55%] py-[50px]'>
+                    <h1 class='text-[#1B1B1D] font-bold text-7xl w-2/3 mb-8'>What Our Customers Say</h1>
+                    <div class='flex gap-2'>
+                        <span class='text-4xl font-bold block'>4.9 </span>
+                        <div class='flex gap-2'>
+                            <img class='w-[20px]' src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img class='w-[20px]' src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img class='w-[20px]' src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img class='w-[20px]' src="/img/6th-screen/goldStar.svg" alt="rate">
+                            <img class='w-[20px]' src="/img/6th-screen/goldStar.svg" alt="rate">
+                        </div>
+                    </div>
+                    <span>based on 2452+ reviews</span>
+
+                    <div id='arrows' class='flex gap-2 absolute top-[100%]'>
+                        <button
+                            class='swiper__prev shadow-xl w-[60px] h-[60px] flex justify-center items-center rounded-full bg-white'>
+                            <img class='rotate-180' src="/img/6th-screen/arrow.svg" alt="arrow">
+                        </button>
+
+                        <button
+                            class='swiper__next shadow-xl w-[60px] h-[60px] flex justify-center items-center rounded-full bg-white'><img
+                                src="/img/6th-screen/arrow.svg" alt="arrow">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='container mx-auto grid grid-cols-2 py-[100px]'>
+            <div class='w-2/3'>
+                <img class='mb-10' src="/img/footer/logo.svg" alt="logo">
+                <p class='color-secondary text-2xl mb-20'>
+                    We made it our mission to create community everyday and grow meaningful, lasting relationships with
+                    our staff, our suppliers and of course you, our customers.
+                </p>
+                <h2 class='text-[#1B1B1D] font-bold text-4xl w-2/3 mb-8'>
+                    Store Locations
+                </h2>
+                <p class='color-secondary text-2xl mb-10'>Find your nearest Alowishus store with opening hours, location
+                    and
+                    contact
+                    details.</p>
+                <a href='#' class='text-xl font-bold'>Find my Alowishus -></a>
+            </div>
+            <div>
+                <h2 class='text-[#1B1B1D] font-bold text-4xl w-2/3 mb-8'>Contact Alowishus!</h2>
+                <ul>
+                    <li class='flex items-center gap-6 mb-8'>
+                        <div
+                            class='shadow-xl  w-[50px] h-[50px] flex justify-center items-center rounded-full bg-white'>
+                            <img src="/img/footer/email.svg" alt="mail">
+                        </div>
+                        <span class='color-secondary text-xl'> alowishus@gmai.com</span>
+                    </li>
+                    <li class='flex items-center gap-4 mb-8'>
+                        <div
+                            class='shadow-xl  w-[50px] h-[50px] flex justify-center items-center rounded-full bg-white'>
+                            <img src="/img/footer/phone.svg" alt="phone">
+                        </div>
+                        <span class='color-secondary text-xl'> +110 214 214 2451</span>
+                    </li>
+                    <li class='flex items-center gap-4 mb-8'>
+                        <div
+                            class='shadow-xl  w-[50px] h-[50px] flex justify-center items-center rounded-full bg-white'>
+                            <img src="/img/footer/facebook.svg" alt="facebook">
+                        </div>
+                        <div
+                            class='shadow-xl  w-[50px] h-[50px] flex justify-center items-center rounded-full bg-white'>
+                            <img src="/img/footer/inst.svg" alt="inst">
+                        </div>
+                        <div
+                            class='shadow-xl  w-[50px] h-[50px] flex justify-center items-center rounded-full bg-white'>
+                            <img src="/img/footer/twitter.svg" alt="twitter">
+                        </div>
+                        <div
+                            class='shadow-xl  w-[50px] h-[50px] flex justify-center items-center rounded-full bg-white'>
+                            <img src="/img/footer/lin.svg" alt="lin">
+                        </div>
+
+                    </li>
+                </ul>
+                <h2 class='text-[#1B1B1D] font-bold text-4xl w-2/3 mb-8'>First One’s On Us!</h2>
+                <input placeholder='E-mail' class='w-1/2 rounded-3xl bg-white py-4 px-10 shadow-xl mb-8' type="text">
+                <button class='standart-btn w-1/4 mx-0'>Subscribe </button>
+            </div>
+        </section>
+        <footer class='container mx-auto py-10 border-t-2 border-gray  flex justify-between'>
+            <p>Copytright © 2023 <span class='font-bold'>Alowishus Delicious</span></p>
+            <p>Terms of Use
+                |
+                Privacy Policy</p>
+        </footer>
     </div>
 
 </body>
