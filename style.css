@@ -25,7 +25,6 @@
 
 ul li:hover {
     cursor: pointer;
-    border-bottom: #000 2px solid;
 }
 
 .wrapper {
