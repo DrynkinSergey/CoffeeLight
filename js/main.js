@@ -42,7 +42,7 @@ gsap.from(
 })
 gsap.from(
   '.a-header', {
-  y: -200,
+  y: 70,
   opacity: 0,
   duration: 2,
   delay: 1.7
@@ -67,51 +67,51 @@ tl.from('.h1-explore', {
   },
   scale: 0,
 })
-//   .from('.h2-explore', {
-//     scrollTrigger: {
-//       trigger: '#explore-us-section',
-//       start: 'top center',
-//       end: '+=200',
-//       scrub: 2,
-//     },
-//     yPercent: 100
-//   })
+  .from('.h2-explore', {
+    scrollTrigger: {
+      trigger: '#explore-us-section',
+      start: 'top center',
+      end: '+=200',
+      scrub: 2,
+    },
+    yPercent: 100
+  })
 
-//   .from('#card-explore', {
-//     scrollTrigger: {
-//       trigger: '#explore-us-section',
-//       start: 'center center',
-//       scrub: 2,
-//       stagger: .3
-//     },
-//     xPercent: 400
-//   })
-//   .from('#explore-us-section', {
-//     scrollTrigger: {
-//       pin: true,
-//       trigger: '#explore-us-section',
-//       start: 'top top',
-//       scrub: 2,
-//     },
-//   })
-//   .to('#card-explore', {
-//     scrollTrigger: {
-//       trigger: '#explore-us-section',
-//       start: 'center center',
-//       pin: true,
-//       scrub: 1,
-//       stagger: 1.3
-//     },
-//     y: 100,
-//     opacity: 0
-//   })
-//   .from('.text-content', {
-//     scrollTrigger: {
-//       markers: true,
-//       trigger: '#order-coffee',
-//       start: 'center bottom',
-//       end: '+=450',
-//       scrub: 3,
-//     },
-//     xPercent: 200,
-//   })
+  .from('#card-explore', {
+    scrollTrigger: {
+      trigger: '#explore-us-section',
+      start: 'top center',
+      end: '+=750',
+      scrub: 2,
+      stagger: 0.3,
+    },
+    yPercent: 200
+  })
+  .from('#explore-us-section', {
+    scrollTrigger: {
+      trigger: '#explore-us-section',
+      start: 'top top',
+      scrub: 2,
+    },
+  })
+
+  .from('.text-content', {
+    scrollTrigger: {
+      trigger: '#order-coffee',
+      start: 'center bottom',
+      end: '+=400',
+      scrub: 3,
+    },
+    xPercent: 200,
+    opacity: 0
+  })
+  .from('#order-coffee-cup', {
+    scrollTrigger: {
+      trigger: '#order-coffee',
+      start: 'center bottom',
+      end: '+=150',
+      scrub: 2,
+    },
+    yPercent: 50,
+    opacity: 0,
+  })
